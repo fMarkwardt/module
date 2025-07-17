@@ -10,15 +10,15 @@
   { "semester": 2, "title": "Gestaltung und Durchführung von Fachvorträgen in der Informatik", "lp": 5, "color": "green" },
   { "semester": 2, "title": "Experimentalphysik Export I,\n[Anwendungsfach Physik]", "lp": 15, "color": "green" },
 
-  { "semester": 3, "title": "Konzepte der Programmierung", "lp": 5, "color": "blue" },
-  { "semester": 3, "title": "Einführung in Data Science", "lp": 5, "color": "red" },
   { "semester": 3, "title": "Einführung in Datenbanken", "lp": 5, "color": "green" },
   { "semester": 3, "title": "Datenstrukturen und effiziente Algorithmen II", "lp": 5, "color": "green" },
+  { "semester": 3, "title": "Konzepte der Programmierung", "lp": 5, "color": "blue" },
+  { "semester": 3, "title": "Einführung in Data Science", "lp": 5, "color": "red" },
   { "semester": 3, "title": "Softwaretechnik", "lp": 5, "color": "red" },
 
   { "semester": 4, "title": "Automaten und Berechenbarkeit", "lp": 10, "color": "green" },
-  { "semester": 4, "title": "Einführung in die Bildverarbeitung", "lp": 5, "color": "red" },
   { "semester": 4, "title": "Projektseminar", "lp": 15, "color": "yellow" },
+  { "semester": 4, "title": "Einführung in die Bildverarbeitung", "lp": 5, "color": "red" },
   { "semester": 4, "title": "3D-Erfassung archäologischer Objekte in den eHumanities\n[ASQ 1]", "lp": 5, "color": "red" },
   { "semester": 4, "title": "Web Mapping: Fachinformationen in Online Karten bereit stellen\n[ASQ 2]", "lp": 5, "color": "red" },
 
