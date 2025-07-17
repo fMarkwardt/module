@@ -47,6 +47,13 @@
             lp.className = 'module-credits';
             lp.innerText = `${mod.lp} LP`;
 
+            if (mod.link) {
+                modDiv.style.cursor = 'pointer';
+                modDiv.onclick = () => {
+                    window.location.href = mod.link;
+                };
+            }
+
             modDiv.appendChild(title);
             modDiv.appendChild(lp);
             modContainer.appendChild(modDiv);
