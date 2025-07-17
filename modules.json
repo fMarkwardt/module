@@ -1,6 +1,6 @@
 [
-  { "semester": 1, "title": "Einführung in die Rechnerarchitektur", "lp": 5, "color": "green", "link": "details/einfuehrung-in-die-rechnerarchitektur.html"},
-  { "semester": 1, "title": "Objektorientierte Programmierung", "lp": 5, "color": "green" },
+  { "semester": 1, "title": "Einführung in die Rechnerarchitektur", "lp": 5, "color": "green", "link": "details/einfuehrung-in-die-rechnerarchitektur.html" },
+  { "semester": 1, "title": "Objektorientierte Programmierung", "lp": 5, "color": "green", "link": "details/objektorientierte_programmierung.html" },
   { "semester": 1, "title": "Mathematik B", "lp": 15, "color": "green" },
   { "semester": 1, "title": "Mathematische Grundlagen der Informatik und Konzepte der Modellierung", "lp": 15, "color": "blue" },
 

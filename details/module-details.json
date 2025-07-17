@@ -1,0 +1,170 @@
+{
+  "Mathematische Grundlagen der Informatik und Konzepte der Modellierung": [
+    "Einführung in die Informatik: Was ist Informatik? Datum, Information, Signal, Semiotik, Wissen, Verantwortung von Informatikerinnen bzw. Informatiker, Systembegriff, Modellbegriff, Prinzipien der Modellierung",
+    "Mengen, Relationen, Funktionen, Graphen und Bäume",
+    "Texte: Textersetzungssysteme, Grammatiken, Chomsky-Hierarchie, endliche Automaten, Strukturbäume",
+    "Monoide, Boolesche Algebra und Verbände",
+    "Modellierung technischer Systeme: Mealy-Automaten, Moore-Automaten, Petri-Netze, Lebendigkeit, Sicherheit",
+    "Abstrakte Datentypen: Terme und Signaturen, Algebren, Homomorphiesatz, Strukturelle"
+  ],
+  "Konzepte der Programmierung": [
+    "Funktionales Programmieren: Funktionale Programmierkonzepte, Verifikation und Validierung funktionaler Programme (Qualitätssicherung), Typkonzept, Transformation von Abstrakten Datentypen in funktionale Programme, Grenzen der Berechenbarkeit",
+    "Imperatives Programmieren: Grundlegende Elemente und Konzepte imperativer Sprachen, Verifikation imperativer Programme (Qualitätssicherung), Typkonzept, Schrittweise Verfeinerung zur Konstruktion korrekter Programme, Implementierung abstrakter Datentypen.",
+    "Objektorientiertes Programmieren: Objekt-orientierte Programmierkonzepte, Typkonzept, Systematische Transformation aus UML-Klassendiagrammen, Verifikation objekt-orientierter Programme (Qualitätssicherung)",
+    "Logisches Programmieren: Logische Programmierkonzepte, Grundlagen der Logikprogrammierung, SLD-Resolution."
+  ],
+  "Softwaretechnik": [
+    "Einleitung: Programmieren im Großen vs. Programmieren im Kleinen, Herausforderungen",
+    "Problem- und Systemanalyse: Anforderungsanalyse",
+    "Modellierung: Erstellen funktionaler Modelle",
+    "Software-Architekturen: Grob- und Feinarchitekturen, Muster, Komponenten und Services",
+    "Testen: Datenflussmodelle, Kontrollflussmodelle, Qualitätssicherung, Integrationstests, Systemtests, Abnahmetests, Verifikation",
+    "Installation und Abnahme",
+    "Pflege und Wartung, Reengineering",
+    "Softwareentwicklungsprozesse: Softwareprozessmodelle, Qualitätssicherung,",
+    "Kostenschätzung"
+  ],
+  "Einführung in die Rechnerarchitektur": [
+    "Historischer Rückblick auf die Rechner-Entwicklung",
+    "Codierung von Zeichen",
+    "Darstellung von Zahlen: Festkomma- und Gleitkomma-Zahlendarstellungen",
+    "Grober Aufbau eines Rechners",
+    "Aufbau eines Ein-Zyklus-Prozessors (RISC)",
+    "Aufbau eines Mehr-Zyklen-Prozessors (RISC)",
+    "Mikroprogrammierung (CISC)",
+    "Speicherhierarchie in einem modernen Rechner",
+    "Überblick existierender Rechnerarchitekturen"
+  ],
+  "Einführung in Betriebssysteme": [
+    "Aufgaben eines Betriebssystems und Klassifizierung von Betriebssystemen",
+    "Interrupt-gesteuerte Betriebssysteme",
+    "Prozesszustandsmodelle und Prozessverwaltung",
+    "Verfahren zum Prozessscheduling",
+    "Threads",
+    "Verfahren zum wechselseitigen Ausschluss",
+    "Interprozesskommunikation",
+    "Speicherverwaltung",
+    "Dateisysteme",
+    "Nutzer- und Rechtemanagement",
+    "Shell-Programmierung",
+    "Virtualisierung"
+  ],
+  "Einführung in die Technische Informatik": [
+    "Mathematische Grundlagen der Technischen Informatik: Boolesche Algebra (Einführung mittels eines konstruktiven Ansatzes)",
+    "Elektronische Grundlagen der Technischen Informatik: Gesetze der Elektronik, elektronische Bausteine (beginnend bei Transistoren über CMOS-Bausteine bis hin zu Operationsverstärker und ihre Beschaltung)",
+    "Rechnerinterne Darstellungen Boolescher Funktionen (Boolesche Ausdrücke, Disjunktive Normalformen, Binäre Entscheidungsdiagramme)",
+    "Verfahren zur Berechnung von Minimalpolynomen",
+    "Verfahren zur Berechnung mehrstufiger kombinatorischer Schaltungen",
+    "Aufbau und Analyse effizienter Schaltungen zur Addition, Subtraktion, Multiplikation und Division von Zahlen im Zweierkomplement",
+    "Designflow integrierter Schaltungen",
+    "Einführung in eine Hardwarebeschreibungssprache an einem Beispiel"
+  ],
+  "Datenstrukturen und effiziente Algorithmen I": [
+    "Korrektheit von Algorithmen: Verifikation",
+    "Asymptotische Kosten eines Algorithmus: Effizienzanalyse",
+    "Grundlegende Datenstrukturen (Felder, Listen, Bäume, Queues, Stacks)",
+    "Rekursive Algorithmen, Rekurrenzgleichungen",
+    "Sortierverfahren (Mergesort, Quicksort, Heapsort, Bucketsort)",
+    "Suchen: Wörterbücher, Suchbäume, Hashing",
+    "einfache Graphenalgorithmen (Tiefen- und Breitensuche, Zusammenhang, kürzeste Wegeprobleme)",
+    "algorithmische Prinzipien: dynamisches Programmieren, divide and conquer"
+  ],
+  "Datenstrukturen und effiziente Algorithmen II": [
+    "Komplexität von Berechnungen",
+    "Polynomialzeitberechenbarkeit und -reduzierbarkeit, NP-Vollständigkeit",
+    "Höhere Datenstrukturen (u.a. Prioriätswarteschlangen, union-find, AVL-Bäume, B-Bäume)",
+    "Designprinzipien für Algorithmen (Greedy-Verfahren, Branch\\&Bound)",
+    "Ausgewählte Themen aus den Bereichen Graphenalgorithmen, String-Matching, Zahlentheoretische Methoden, Algorithmische Geometrie"
+  ],
+  "Automaten und Berechenbarkeit": [
+    "Grundlegende intellektuelle Fähigkeiten eines Informatikers (logisches Denken, Abstraktion, Verständnis für kausale Zusammenhänge)",
+    "Abstrakte Berechnungsmodelle",
+    "Verifikationsverfahren, mathematische Logik",
+    "Endliche Automaten und reguläre Sprachen",
+    "Kellerautomaten und kontextfreie Sprachen",
+    "Algorithmenbegriffe: Turing-Maschinen, partiell-rekursive Funktionen",
+    "Berechenbarkeitstheorie, unentscheidbare Probleme Effiziente Algorithmen, P-NP-Problem Chomsky-Hierarchie formaler Sprachen"
+  ],
+  "Einführung in Data Science": [
+    "Kombinatorik, Wahrscheinlichkeitstheorie, Zufallsvariablen, Zufallsvektoren, Zufallsmatrizen",
+    "Univariate Verteilungen, multivariate Verteilungen, matrixvariate Verteilungen, Randverteilungen, bedingte Verteilungen, Satz von Bayes",
+    "Erwartungswert, Varianz, Kovarianz, Korrelationskoeffizient, höhere Momente, Erwartungswertvektor, Kovarianzmatrix",
+    "Bedingter Erwartungswert, bedingte Varianz, bedingte Kovarianz, bedingter Korrelationskoeffizient, bedingter Erwartungswertvektor, bedingte Kovarianzmatrix",
+    "Unabhängigkeit, bedingte Unabhängigkeit, Unkorreliertheit, bedingte Unkorreliertheit",
+    "Verschiedene konjugierten Prior-Verteilungen für verschiedene Verteilungen, Schätzverfahren",
+    "Statistische Tests und Klassifikation von Daten aus der Informatik und der Bioinformatik"
+  ],
+  "Einführung in Datenbanken": [
+    "Grundlegende Datenbank-Begriffe, Funktionen von Datenbanksystemen",
+    "Einführung in die mathematische Logik mit Anwendungen für Datenbanken",
+    "Relationales Datenmodell, Integritätsbedingungen",
+    "Relationale Algebra",
+    "Die Datenbanksprache SQL (Schwerpunkt der Vorlesung)",
+    "Einführung in Datenbankentwurf (Entity-Relationship-Modell, Logischer Entwurf, Relationale Normalformen: BCNF)"
+  ],
+  "Einführung in die Bildverarbeitung": [
+    "Die Bildverarbeitung beschäftigt sich mit der automatischen Verarbeitung bildhafter Daten, die von unterschiedlichsten Sensoren stammen können. Das Ziel der Verarbeitung ist letztlich die Analyse und Interpretation der in den Daten abgebildeten Umwelt hinsichtlich einer gegebenen Aufgabenstellung. Bildverarbeitung arbeitet in Abgrenzung zur Bildanalyse im wesentlichen mit problemunabhängigen Modellannahmen, wobei diese Abgrenzung unscharf ist.",
+    "Teile der Methoden können sehr intuitiv motiviert werden, in wesentlichen Teilen ist aber auch eine mathematische Fundierung essentiell. Auch Fragen der Effizienz von Algorithmen und Datenstrukturen werden berücksichtigt. Neben Methoden der Verarbeitung selber ist auch die Formation und die Repräsentation von Bildern Inhalt des Moduls.",
+    "Digitale Bilder",
+    "Binärbilder",
+    "Vorverarbeitung und Bildverbesserung",
+    "Bildsegmentierung: kontur- und regionenbasiert",
+    "Bildrepräsentation, Fouriertransformation",
+    "Textur",
+    "Maschinelles Lernen für die Bildanalyse"
+  ],
+  "Rechnernetze und verteilte Systeme": [
+    "Synchrone und asynchrone Übertragungen",
+    "Fehlertolerante Kodierungen",
+    "Grundlagen der Informationstheorie (Entropie, Präfixcodes)",
+    "Netzwerktopologien",
+    "Schichtenmodell",
+    "Protokolle (Internetprotokolle, Ethernet, IP, TCP, UDP usw.)",
+    "Netzwerkprogrammierung / Interprozesskommunikation",
+    "Sicherheitstechniken",
+    "Verteilte Systeme"
+  ],
+  "Objektorientierte Programmierung": [
+    "Operatoren, Variablen und Zuweisungen",
+    "Gültigkeitsbereiche und Blöcke",
+    "Basisdatentypen und Ausdrücke",
+    "zusammengesetzte Datentypen",
+    "einfache Ablaufsteuerung",
+    "Klassen, Attribute, Methoden",
+    "Vererbung und Polymorphie",
+    "Parametrisierte Klassen",
+    "Ausnahmebehandlung",
+    "Rekursion"
+  ],
+  "Gestaltung und Durchführung von Fachvorträgen in der Informatik": [
+    "zu einem vorgegebenen Thema selbstständig geeignete Fachliteratur recherchieren",
+    "sich in Fachliteratur (fortgeschrittene Lehrbücher oder Forschungsartikel, insbesondere auch auf Englisch) einarbeiten und diese kritisch hinterfragen",
+    "wesentliche Inhalte derartiger Quellen mit eigenen Worten zusammenfassen, sowie klar und verständlich in einem wissenschaftlichen Vortrag präsentieren",
+    "Grundzüge guter wissenschaftlicher Arbeit",
+    "wissenschaftliche Texte unter Beachtung fachspezifischer Regeln zum Strukturieren und Zitieren verfassen",
+    "Planung, Vorbereitung und Durchführung von Fachvorträgen in der Informatik",
+    "Inhalte sind von der jeweils verwendeten Literatur abhängig"
+  ],
+  "Mathematik B": [
+    "Teil 1: Diskrete Strukturen und lineare Algebra",
+    "Elementare Logik und Mengentheorie",
+    "Gruppen, Ringe, Körper",
+    "rationale, reelle, komplexe Zahlen",
+    "lineare Gleichungssysteme, Vektoren, Matrizen",
+    "Vektorräume und lineare Operatoren",
+    "Eigenwerte, Diagonalisierung, Normalformen",
+    "Analytische Geometrie"
+  ],
+  "Projektseminar": [
+    "Im Projektseminar sollen die in den Modulen Softwaretechnik erworbenen Kenntnisse in der Planung und Durchführung von Projekten in mittelgroßen Teams (10–15 Personen) umgesetzt werden.",
+    "Die Projekte können das ganze Spektrum von Hardware- über Software- bis hin zu Beratungsprojekten umfassen.",
+    "Ziel ist, dass die Teilnehmerinnen bzw. Teilnehmer aus den Erfahrungen mit der Durchführung eines solchen Projekts lernen.",
+    "Die Teilnehmer arbeiten in einem Team von 10–15 Personen selbstständig an einem IT-Projekt, das von externen Partnern (Unternehmen aus der Region, Forschungseinrichtungen etc.) betreut wird.",
+    "Das fachliche Thema ist vom konkreten Projekt abhängig. Zu Beginn der Veranstaltung wird im Rahmen einer Vorlesung in Projektplanungs- und -management-Techniken sowie in Konfigurations- und Versionsmanagement eingeführt.",
+    "Danach soll das konkrete Projekt geplant, durchgeführt und präsentiert werden."
+  ],
+  "Abschlussmodul mit Bachelorarbeit": [
+    "Die Aufgabenstellung kann sowohl praktischer als auch theoretischer Natur sein und in der Regel den im Berufsleben auftretenden Problemstellungen entsprechen.",
+    "Zu ihrer Lösung sollten die aus dem Studium vermittelten und in der aktuellen Fachliteratur zugänglichen Kenntnisse und Techniken ausreichen."
+  ]
+}
