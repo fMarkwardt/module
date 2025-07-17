@@ -1,0 +1,45 @@
+.module {
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  height: 100%;
+}
+.module.green { background-color: #71a88d; }
+.module.red { background-color: #cc7b7b; }
+.module.yellow { background-color: #e5c07b; color: #000; }
+.module.white { background-color: #f8f9fa; color: #000; border: 1px solid #ced4da; }
+
+.semester-column {
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.semester-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.module-wrapper {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;    /*justify-content: space-between;*/
+}
+.module-container {
+  height: 160px;
+  margin: 10px 0;
+}
+.module-title {
+  font-weight: bold;
+}
+.module-credits {
+  font-size: 0.9em;
+  margin-top: 5px;
+}
