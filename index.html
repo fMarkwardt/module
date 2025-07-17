@@ -1,10 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-  <title>Testseite</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studienübersicht</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .modul {
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      margin: 5px 0;
+      color: #fff;
+    }
+    .modul.gruen { background-color: #71a88d; }
+    .modul.rot { background-color: #cc7b7b; }
+    .modul.gelb { background-color: #e5c07b; color: #000; }
+    .modul.weiss { background-color: #f8f9fa; color: #000; border: 1px solid #ced4da; }
+    .semester-col { min-width: 180px; }
+  </style>
 </head>
 <body>
-  <h1>Hallo von GitHub Pages!</h1>
-  <p>Das ist meine Testseite im Repository <code>module</code>.</p>
+  <div class="container py-4">
+    <h1 class="mb-4 text-center">Mein Studienplan</h1>
+    <div class="row flex-nowrap overflow-auto">
+      <!-- Semester 1 -->
+      <div class="col semester-col">
+        <h5>Semester 1</h5>
+        <div class="modul gruen">Einführung in die Rechnerarchitektur<br><small>5 LP</small></div>
+        <div class="modul gruen">Objektorientierte Programmierung<br><small>5 LP</small></div>
+        <div class="modul gruen">Mathematik B<br><small>15 LP</small></div>
+        <div class="modul weiss">Mathematische Grundlagen<br>und Modellierung<br><small>15 LP</small></div>
+      </div>
+
+      <!-- Semester 2 -->
+      <div class="col semester-col">
+        <h5>Semester 2</h5>
+        <div class="modul gruen">Datenstrukturen I<br><small>5 LP</small></div>
+        <div class="modul gruen">Einführung in Betriebssysteme<br><small>5 LP</small></div>
+        <div class="modul gruen">Technische Informatik<br><small>5 LP</small></div>
+        <div class="modul rot">Softwaretechnik<br><small>5 LP</small></div>
+      </div>
+
+      <!-- Semester 3 -->
+      <div class="col semester-col">
+        <h5>Semester 3</h5>
+        <div class="modul weiss">Konzepte der Programmierung<br><small>5 LP</small></div>
+        <div class="modul rot">Einführung in Data Science<br><small>5 LP</small></div>
+        <div class="modul gruen">Einführung in Datenbanken<br><small>5 LP</small></div>
+        <div class="modul rot">Datenstrukturen II<br><small>5 LP</small></div>
+      </div>
+
+      <!-- Semester 4 -->
+      <div class="col semester-col">
+        <h5>Semester 4</h5>
+        <div class="modul gruen">Automaten und Berechenbarkeit<br><small>10 LP</small></div>
+        <div class="modul rot">Bildverarbeitung<br><small>5 LP</small></div>
+        <div class="modul gelb">Projektseminar<br><small>15 LP</small></div>
+        <div class="modul weiss">ASQ 1<br><small>5 LP</small></div>
+      </div>
+
+      <!-- Semester 5 -->
+      <div class="col semester-col">
+        <h5>Semester 5</h5>
+        <div class="modul gruen">Rechnernetze<br><small>5 LP</small></div>
+        <div class="modul weiss">Fachvorträge<br><small>5 LP</small></div>
+        <div class="modul weiss">ASQ 2<br><small>5 LP</small></div>
+      </div>
+
+      <!-- Komplex Spezialisierung -->
+      <div class="col semester-col">
+        <h5>Spezialisierung</h5>
+        <div class="modul gruen">Advanced Python<br><small>5 LP</small></div>
+        <div class="modul gruen">Einführung in die KI<br><small>5 LP</small></div>
+        <div class="modul gruen">Mobile Anwendungen<br><small>5 LP</small></div>
+        <div class="modul gruen">Robotik<br><small>5 LP</small></div>
+      </div>
+
+      <!-- Bachelorarbeit -->
+      <div class="col semester-col">
+        <h5>Abschluss</h5>
+        <div class="modul weiss">Bachelorarbeit<br><small>15 LP</small></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
