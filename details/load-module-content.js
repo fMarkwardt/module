@@ -1,5 +1,15 @@
-// load-module-content.js
-function loadModuleContent(modulname, jsonPfad = 'module-details.json') {
+function loadModuleContent(university, modulname) {
+
+  if(university == "bht") {
+    jsonPfad = 'modules_bht.json';
+  }
+  else if(university == "mlu"){
+    jsonPfad = 'modules_mlu.json';
+  }
+  else if(university == "tub"){
+    jsonPfad = 'modules_tub.json';
+  }
+
   fetch(jsonPfad)
     .then(response => response.json())
     .then(data => {
@@ -30,4 +40,32 @@ function loadModuleContent(modulname, jsonPfad = 'module-details.json') {
     .catch(error => {
       console.error('Fehler beim Laden der Modul-Inhalte:', error);
     });
+}
+
+function loadColoredHeading(type = 'success', targetId = null) {
+  const texts = {
+    success: "Für die Anerkennung des Moduls werden die folgenden inhaltlich äquivalenten Lehrveranstaltungen herangezogen:",
+    danger: "Zur Anerkennung des Moduls können keine inhaltlich äquivalenten Lehrveranstaltungen herangezogen werden.",
+    guest_module: "Dieses Modul soll im Komplex Spezifikation als Gast-Modul des Bereichs Informatik anerkannt werden."
+  };
+
+  const colors = {
+    success: 'success',
+    danger: 'danger',
+    guest_module: 'success'
+  };
+
+  const headingText = texts[type] || "";
+  const color = colors[type] || 'secondary'; // fallback color
+
+  const heading = document.createElement('h2');
+  heading.className = `h4 text-${color} my-5`;
+  heading.textContent = headingText;
+
+  if (targetId) {
+    const container = document.getElementById(targetId);
+    if (container) container.appendChild(heading);
+  } else {
+    document.body.appendChild(heading);
+  }
 }

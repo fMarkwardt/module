@@ -166,5 +166,13 @@
   "Abschlussmodul mit Bachelorarbeit": [
     "Die Aufgabenstellung kann sowohl praktischer als auch theoretischer Natur sein und in der Regel den im Berufsleben auftretenden Problemstellungen entsprechen.",
     "Zu ihrer Lösung sollten die aus dem Studium vermittelten und in der aktuellen Fachliteratur zugänglichen Kenntnisse und Techniken ausreichen."
+  ],
+  "Experimentalphysik Export I": [
+    "Einführung: physikalische Größen, Einheiten, Gleichungen",
+    "Mechanik: Kinematik und Dynamik freier Punktmassen (Grundbegriffe, Newtonsche Axiome, Erhaltungssätze), Statik und Dynamik des starren Körpers (Drehmoment, Trägheitsmoment, Drehimpulserhaltungssatz, Kreisel, Gravitation, Planetenbewegung), Mechanik der Flüssigkeiten, Gase und deformierbaren Körper (Grenzflächenerscheinungen, Bernoullische Gleichung, Zähigkeit, Hooksches Gesetz)",
+    "Thermodynamik: Temperatur, Wärme, Zustandsgleichung idealer Gase, van der Waals Zustandsgleichung, I.Hauptsatz, ausgewählte Zustandsänderungen, Transportvorgänge, II. Hauptsatz, Entropie, thermodynamische Kreisprozesse",
+    "Elektrizität und Magnetismus: Elektrostatisches Feld (Ladung, elektrische Feldstärke, elektrisches Potenzial, Coulombsches Gesetz, Dielektrizitätskonstante, elektrische Polarisation), elektrischer Strom (Ohmsches Gesetz, elektrische Leitung in Festkörpern, Flüssigkeiten und Gasen), magnetisches Feld (magnetische Feldgrößen, Lorentzkraft, Materie im Magnetfeld, zeitlich veränderliches Magnetfeld (Induktionsgesetz, Maxwellsche Gleichungen), Anwendungen der elektromagnetischen Induktion (Generator, Motor, Transformator, Wechselstromkreis)",
+    "Schwingungen und Wellen: Schwingungen (Grundbegriffe, freie, gedämpfte, erzwungene und gekoppelte Schwingungen), Wellen (Grundbegriffe, Wellengleichung, Reflexion, Überlagerung, Huygens-Fresnelsches Prinzip, Schallwellen, elektromagnetische Wellen (Energiedichte, Strahlungsquellen- Hertzscher Dipol, Doppler-Effekt, Polarisation)",
+    "Phänomenologische Einführung in die Grundlagen der Kernphysik und Radioaktivität: Atomkern (Kernaufbau, Bindungsenergie, Tröpfchenmodell), Zerfallsgesetz (Aktivität, Halbwertszeit, Zerfallsstatistik, Zerfallsketten), Zerfallsarten (alpha-, beta-und gamma-Strahlung), Anwendungen (Kernspaltung, Kernfusion, medizinische Anwendungen)"
   ]
 }
