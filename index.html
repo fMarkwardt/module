@@ -12,60 +12,59 @@
   <div class="container-fluid px-5 py-5">
     <h1 class="mb-4 text-center">Felix' Studienplan</h1>
     <div id="plan" class="row flex-nowrap overflow-auto"></div>
+
+    <div class="d-flex gap-3 justify-content-center mt-4">
+      <a href="docs/Modulhandbuch_MLU.pdf" target="_blank" class="btn btn-secondary">Modulhandbuch MLU</a>
+      <a href="docs/Modulhandbuch_BHT.pdf" target="_blank" class="btn btn-secondary">Modulhandbuch BHT</a>
+    </div>
   </div>
 
   <script>
-    const semesters = [1, 2, 3, 4, 5];
+  fetch('modules.json')
+    .then(response => response.json())
+    .then(data => {
+      data.forEach(semesterBlock => {
+        const sem = semesterBlock.semester;
+        const modules = semesterBlock.modules;
+        if (!Array.isArray(modules)) return;
 
-    fetch('modules.json')
-      .then(response => response.json())
-      .then(data => {
-        const container = document.getElementById('plan');
-        semesters.forEach(sem => {
-          const col = document.createElement('div');
-          col.className = 'col semester-column';
+        // Spalte für Semester
+        const column = document.createElement('div');
+        column.className = 'col semester-column';
 
-          const title = document.createElement('h5');
-          title.className = 'semester-title';
-          title.innerText = `Semester ${sem}`;
+        const title = document.createElement('h5');
+        title.className = 'semester-title';
+        title.textContent = `Semester ${sem}`;
+        column.appendChild(title);
 
-          const wrapper = document.createElement('div');
-          wrapper.className = 'module-wrapper';
+        const wrapper = document.createElement('div');
+        wrapper.className = 'module-wrapper';
 
-          data.filter(mod => mod.semester === sem).forEach(mod => {
-            const modContainer = document.createElement('div');
-            modContainer.className = 'module-container';
+        modules.forEach(mod => {
+          const container = document.createElement('div');
+          container.className = 'module-container';
 
-            const modDiv = document.createElement('div');
-            modDiv.className = `module ${mod.color}`;
+          const moduleDiv = document.createElement('div');
+          moduleDiv.className = `module ${mod.color}`;
+          moduleDiv.innerHTML = `<span class="fw-bold fs-6">${mod.title}</span><small>${mod.lp} LP</small>`;
 
-            const title = document.createElement('div');
-            title.className = 'module-title';
-            title.innerText = mod.title;
 
-            const lp = document.createElement('div');
-            lp.className = 'module-credits';
-            lp.innerText = `${mod.lp} LP`;
+          if (mod.link) {
+            moduleDiv.style.cursor = 'pointer';
+            moduleDiv.onclick = () => window.location.href = `details/${mod.link}`;
+          }
 
-            if (mod.link) {
-                modDiv.style.cursor = 'pointer';
-                modDiv.onclick = () => {
-                    window.location.href = mod.link;
-                };
-            }
-
-            modDiv.appendChild(title);
-            modDiv.appendChild(lp);
-            modContainer.appendChild(modDiv);
-            wrapper.appendChild(modContainer);
-          });
-
-          col.appendChild(title);
-          col.appendChild(wrapper);
-          container.appendChild(col);
+          container.appendChild(moduleDiv);
+          wrapper.appendChild(container);
         });
+
+        column.appendChild(wrapper);
+        document.querySelector('.row').appendChild(column);
       });
-  </script>
+    });
+</script>
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
