@@ -23,9 +23,9 @@
   { "semester": 4, "title": "Web Mapping: Fachinformationen in Online Karten bereit stellen\n[ASQ 2]", "lp": 5, "color": "red", "link": "details/web_mapping.html" },
 
   { "semester": 5, "title": "Rechnernetze und verteilte Systeme", "lp": 5, "color": "green", "link": "details/rechnernetze_verteilte_systeme.html" },
-  { "semester": 5, "title": "Gast-Modul A:\nAdvanced Python\n[Spezifikation]", "lp": 5, "color": "green", "link": "details/advanced_python.html" },
-  { "semester": 5, "title": "Gast-Modul B:\nEinführung in die KI\n[Spezifikation]", "lp": 5, "color": "green", "link": "details/kuenstliche_intelligenz.html" },
-  { "semester": 5, "title": "Gast-Modul C:\nMobile Anwendungen\n[Spezifikation]", "lp": 5, "color": "green", "link": "details/mobile_anwendungen.html" },
+  { "semester": 5, "title": "Gast-Modul A:\nEinführung in die \nKünstliche Intelligenz\n[Spezifikation]", "lp": 5, "color": "green", "link": "details/kuenstliche_intelligenz.html" },
+  { "semester": 5, "title": "Gast-Modul B:\nMaschinelles Lernen\n[Spezifikation]", "lp": 5, "color": "green", "link": "details/maschinelles_lernen.html" },
+  { "semester": 5, "title": "Gast-Modul C:\nAdvanced Python\n[Spezifikation]", "lp": 5, "color": "green", "link": "details/advanced_python.html" },
   { "semester": 5, "title": "Gast-Modul D:\nRobotik\n[Spezifikation]", "lp": 5, "color": "green", "link": "details/robotik.html" },
 
   { "semester": 6, "title": "Abschlussmodul mit Bachelorarbeit", "lp": 15, "color": "purple", "link": "details/.html" }

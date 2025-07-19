@@ -1,0 +1,31 @@
+{
+  "Einführung in die Künstliche Intelligenz [TUB]": [
+    "Integratives Verständnis des Forschungsgebiets Künstliche Intelligenz",
+    "daten-basierte KI (insb. Maschinelles Lernen) und model-basierte KI (insb. Planung & Reasoning) gleichberechtigt und integriert",
+    "KI aus Sicht der Entscheidungs-Theorie, des Maschinellen Lernens, der Optimierung, und des klassischen Problemlösens verstehen",
+    "Die Student:innen können grundlegende Algorithmen aus den genannten Gebieten eigenständig von Grund auf implementieren und im Detail verstehen",
+    "Die Student:innen wissen, welche Problemformulierung und Algorithmen der KI für ein gegebenes Anwendungsproblem adäquat sind",
+    "Entscheidungstheorie (inkl. Reinforcement-Lernen, Banditen, Regelungstheorie)",
+    "Maschinelles Lernen",
+    "Optimierung",
+    "Inferenz, klassisches Planen, & Problemlösen",
+    "Dynamisches Programmieren",
+    "Optimierungs- vs. sample-basierte Methoden",
+    "Entscheidungsbäume"
+  ],
+  "Algorithmen und Datenstrukturen [TUB]": [
+    "Einführung in Objekt-orientierte Programmierung in Java",
+    "Wachstumsordnungen, Komplextitätsklassen, Big-O Notation",
+    "Backtracking",
+    "Greedy-Algorithmen",
+    "Branch-and-Bound, Alpha-Beta-Suche",
+    "Randomisierte Algorithmen",
+    "Dynamisches Programmieren",
+    "Tiefen- und Breitensuche auf Graphen, Topologische Sortierung",
+    "Minimale Spannbäume",
+    "Kürzeste Wege (SSSP)",
+    "Flussgraphen, MaxFlow und MinCut",
+    "Heuristische und Approximative Algorithmen",
+    "Hash-Tabellen"
+  ]
+}

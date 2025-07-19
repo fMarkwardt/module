@@ -1,6 +1,7 @@
 {
   "Mathematische Grundlagen der Informatik und Konzepte der Modellierung": [
-    "Einführung in die Informatik: Was ist Informatik? Datum, Information, Signal, Semiotik, Wissen, Verantwortung von Informatikerinnen bzw. Informatiker, Systembegriff, Modellbegriff, Prinzipien der Modellierung",
+    "Einführung in die Informatik: Was ist Informatik?",
+    "Datum, Information, Signal, Semiotik, Wissen, Verantwortung von Informatiker:innen, Systembegriff, Modellbegriff, Prinzipien der Modellierung",
     "Mengen, Relationen, Funktionen, Graphen und Bäume",
     "Texte: Textersetzungssysteme, Grammatiken, Chomsky-Hierarchie, endliche Automaten, Strukturbäume",
     "Monoide, Boolesche Algebra und Verbände",
@@ -174,5 +175,24 @@
     "Elektrizität und Magnetismus: Elektrostatisches Feld (Ladung, elektrische Feldstärke, elektrisches Potenzial, Coulombsches Gesetz, Dielektrizitätskonstante, elektrische Polarisation), elektrischer Strom (Ohmsches Gesetz, elektrische Leitung in Festkörpern, Flüssigkeiten und Gasen), magnetisches Feld (magnetische Feldgrößen, Lorentzkraft, Materie im Magnetfeld, zeitlich veränderliches Magnetfeld (Induktionsgesetz, Maxwellsche Gleichungen), Anwendungen der elektromagnetischen Induktion (Generator, Motor, Transformator, Wechselstromkreis)",
     "Schwingungen und Wellen: Schwingungen (Grundbegriffe, freie, gedämpfte, erzwungene und gekoppelte Schwingungen), Wellen (Grundbegriffe, Wellengleichung, Reflexion, Überlagerung, Huygens-Fresnelsches Prinzip, Schallwellen, elektromagnetische Wellen (Energiedichte, Strahlungsquellen- Hertzscher Dipol, Doppler-Effekt, Polarisation)",
     "Phänomenologische Einführung in die Grundlagen der Kernphysik und Radioaktivität: Atomkern (Kernaufbau, Bindungsenergie, Tröpfchenmodell), Zerfallsgesetz (Aktivität, Halbwertszeit, Zerfallsstatistik, Zerfallsketten), Zerfallsarten (alpha-, beta-und gamma-Strahlung), Anwendungen (Kernspaltung, Kernfusion, medizinische Anwendungen)"
+  ],
+  "3D-Erfassung archäologischer Objekte in den eHumanities": [
+    "Vermittlung von Grundkenntnissen zu archäologischen Objekten",
+    "umfassendes Verständnis von 3D-Messtechniken zur Erfassung kleiner und mittelgroßer archäologischer Objekte",
+    "Überblick zu der in der AG eHumanities & FCGLab vorhandenen Hardware und Anwendungsmöglichkeiten",
+    "umfassende und zukunftsweisende Methoden zur 3D-Digitalisierung am Beispiel der Dokumentation von archäologischen Objekten",
+    "Forschungsdatenmanagement (FDM) und die zugehörige Nationale Forschungsdateninfrastruktur (NFDI der DFG)",
+    "Präsentation Gruppenarbeiten und kritische Diskussion"
+  ],
+  "Web Mapping: Fachinformationen in Online Karten bereit stellen": [
+    "Webbasierende Geodatenanwendungen im fachübergreifenden beruflichen Kontext",
+    "Datenintegration in webbasierenden Kartenanwendungen unter Nutzung freier Daten (Open Data)",
+    "Geokodierung von historischen und aktuellen raumbezogenen Informationen (z.B. Karten, Lagepläne, Adressen, Feldkartierungen, Prospektionen, Umfragen, empirische Studien)",
+    "Konzeption und Umsetzung einer eigenständigen Online-Kartenanwendung"
+  ],
+  "": [
+    "",
+    "",
+    ""    
   ]
 }

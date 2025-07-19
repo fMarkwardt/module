@@ -317,14 +317,14 @@
     "Lösung praktischer Aufgabenstellungen aus der Rechnertechnik hinsichtlich Standard-Peripherieanbindung sowohl hard- wie auch softwaremäßig"
   ],
   "Maschinelles Lernen [BHT]": [
-    "aktuelle angewandte Probleme aus Folgenden möglichen Themenbereichen angeboten",
+    "Aktuelle angewandte Probleme aus Folgenden möglichen Themenbereichen angeboten",
     "Einführung in Maschinelles Lernen: Lernen aus Daten, Feature Extraktion",
     "Einführung in Unsupervised Learning: Clustering und Dimensionsreduktion (PCA), Eigenfaces",
     "Einführung in Methoden des Supervised Learning: K-Nächste Nachbarn, Support-Vector Machines",
     "Grundlegende Einführung in Neuronale Netze und deren Praktische Anwendung und Best-Practices (Hyperparameteroptimierung, Evaluation, Cross-Validation)",
     "Einführung in Tools des Deep Learning",
-    "selbstständig oder in Kleingruppen das Verständnis in das Themengebiet des Maschinellen Lernen mit der Programmiersprache Python vertieft",
-    "selbstständig die Bearbeitung von Hausaufgaben zu den in der SU besprochenen Themen durchgeführt"
+    "Selbstständig oder in Kleingruppen das Verständnis in das Themengebiet des Maschinellen Lernen mit der Programmiersprache Python vertieft",
+    "Selbstständig die Bearbeitung von Hausaufgaben zu den in der SU besprochenen Themen durchgeführt"
   ],
   "Grundlagen wissenschaftlichen Arbeitens [BHT]": [
     "Einführung in wissenschaftliche Arbeitsweisen",
@@ -354,12 +354,29 @@
     "Planung des Einsatzes von Robotern",
     "Anwendungsbeispiele und aktuelle Trends, Cobots",
     "Trajektorienplanung und Kollisionsvermeidung",
-    "In der Übung",
     "Berechnung des Arbeitsraumes und Kinematiken dreier Roboter",
     "Roboterprogrammieren",
     "Interpolation"
   ],
   "Grundfragen wissenschaftlichen Arbeitens [BHT]": [
     ""
+  ],
+  "Mobile Anwendungen [BHT]": [
+    "Die Studierenden können komplexe Probleme mit Abstraktion in den Griff bekommen",
+    "Sie haben anhand von Beispielen die Nützlichkeit von Theorien beim Lösen praktischer Probleme erfahren (z.B. beim Erstellen eines Parsers)",
+    "Sie haben Alternativen zur prozeduralen Programmierung kennengelernt (funktionale und deklarative Programmierung)",
+    "Grundbegriffe der Programmierung (Variable, Vereinbarung, Ausdruckt, Anweisung etc.) aus der neuen Perspektive des Compilerbauers",
+    "Natürliche und formale Sprachen",
+    "Formale Grammatiken zur Beschreibung formaler Sprachen",
+    "Die Chomsky-Hierarchie von Sprachen (Typ3 bis Typ0)",
+    "Kontextfreie Grammatiken (Typ2-Grammatiken)",
+    "Reguläre Grammatiken (Typ3-Grammatiken)",
+    "LL-Parser, LR-Parser (evtl. nur andeuten)",
+    "Funktionale und deklarative Programmiersprachen (Gentle ist deklarativ)",
+    "Werkzeuge zur Erstellung von praktischen Compilern (z.B. Gentle-System mit lex und yacc bzw. flex und bison)",
+    "In der Übung: Entwicklung eines kleinen Compilers"
+  ],
+  "Advanced Python [BHT]": [
+    "(Modulinhalte können auf Wunsch nachgereicht werden)"
   ]
 }

@@ -43,29 +43,24 @@ function loadModuleContent(university, modulname) {
 }
 
 function loadColoredHeading(type = 'success', targetId = null) {
+
   const texts = {
     success: "Für die Anerkennung des Moduls werden die folgenden inhaltlich äquivalenten Lehrveranstaltungen herangezogen:",
-    danger: "Zur Anerkennung des Moduls können keine inhaltlich äquivalenten Lehrveranstaltungen herangezogen werden.",
+    orange: "Zur Anerkennung des Moduls können keine inhaltlich äquivalenten Lehrveranstaltungen herangezogen werden.",
     guest_module: "Dieses Modul soll im Komplex Spezifikation als Gast-Modul des Bereichs Informatik anerkannt werden."
   };
 
   const colors = {
-    success: 'success',
-    danger: 'danger',
-    guest_module: 'success'
-  };
-
-  const headingText = texts[type] || "";
-  const color = colors[type] || 'secondary'; // fallback color
+    success: "success",
+    guest_module: "success",
+    orange: "orange"
+  }
 
   const heading = document.createElement('h2');
-  heading.className = `h4 text-${color} my-5`;
+  heading.className = `h4 my-5 text-${colors[type]}`;
+  const headingText = texts[type] || "";
   heading.textContent = headingText;
 
-  if (targetId) {
-    const container = document.getElementById(targetId);
-    if (container) container.appendChild(heading);
-  } else {
-    document.body.appendChild(heading);
-  }
+  const target = document.getElementById(targetId);
+  if (target) target.appendChild(heading);
 }
