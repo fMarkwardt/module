@@ -30,6 +30,11 @@
 .mlu-block {
   flex: 0 0 275px;
   min-height: 125px;
+  transition: transform 0.1s ease-in-out;
+}
+a.module-link:hover .mlu-block {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 .bht-tub-block {
   flex: 0 0 250px;
@@ -51,7 +56,7 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: black;
   font-weight: bold;
   display: flex;
@@ -64,4 +69,9 @@
   font-size: 30px;
   font-weight: bold;
   line-height: 100px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
 }

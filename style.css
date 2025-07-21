@@ -27,12 +27,9 @@ header {
   transform: scale(1.06); /* leicht vergrößert */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Schatten für Tiefe */
 }
-.module.green { background-color: #afd8a2; color: #000; }
-.module.red { background-color: #f1b5b5; color: #000; }
-.module.yellow { background-color: #fce043; color: #000; }
-.module.white { background-color: #f8f9fa; color: #000; }
-.module.purple { background-color: #f165de9d; color: #000; }
-.module.blue { background-color: #70d5e29d; color: #000; }
+.module.green { background-color: #d4edda; color: #155724; }
+.module.yellow { background-color: #fff3cd; color: #856404; }
+.module.red { background-color: #f8d7da; color: #721c24; }
 
 .semester-column {
   min-width: 220px;
@@ -49,7 +46,7 @@ header {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 16px;    /*justify-content: space-between;*/
+  gap: 10px;    /*justify-content: space-between;*/
 }
 .module-container {
   height: 160px;

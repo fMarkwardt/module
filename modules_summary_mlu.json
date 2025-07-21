@@ -23,7 +23,7 @@
     "modules": [
       { "title": "Einführung in Datenbanken", "lp": 5, "color": "green", "link": "datenbanken.html", "uni": "mlu" },
       { "title": "Datenstrukturen und effiziente Algorithmen II", "lp": 5, "color": "green", "link": "datenstrukturen_algorithmen_2.html", "uni": "mlu" },
-      { "title": "Konzepte der Programmierung", "lp": 5, "color": "green", "link": "konzepte_programmierung.html", "uni": "mlu" },
+      { "title": "Konzepte der Programmierung", "lp": 5, "color": "red", "link": "konzepte_programmierung.html", "uni": "mlu" },
       { "title": "Einführung in Data Science", "lp": 5, "color": "red", "link": "data_science.html", "uni": "mlu" },
       { "title": "Softwaretechnik", "lp": 5, "color": "red", "link": "softwaretechnik.html", "uni": "mlu" }
     ]

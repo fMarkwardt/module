@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+
   fetch("all_approvals_structured.json")
     .then(response => response.json())
     .then(data => {
@@ -9,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         row.className = "mapping-row";
 
         // MLU Modul
-        const mluBlock = createModuleBlock(entry.mlu);
+        const mluBlock = createModuleBlock(entry.mlu, true);
         mluBlock.classList.add("mlu-block");
 
         // Pfeil
@@ -37,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 
-  function createModuleBlock(modul) {
+  function createModuleBlock(modul, isMlu = false) {
     const block = document.createElement("div");
     block.classList.add("module-block");
     block.classList.add(`color-${modul.color.toLowerCase()}`);
@@ -52,6 +53,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
     block.appendChild(title);
     block.appendChild(lp);
+
+    if (isMlu) {
+      block.classList.add("mlu-block");
+    }
+
+    if (isMlu && modul.link) {
+      const wrapper = document.createElement("a");
+      wrapper.href = modul.link;
+      wrapper.rel = "noopener noreferrer";
+      wrapper.classList.add("module-link");
+      wrapper.appendChild(block);
+      return wrapper;
+    }
 
     return block;
   }
