@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container-fluid px-5 py-5">
+  <div class="container px-5 py-5">
     <h1 class="mb-4 text-center">Felix' Studienplan</h1>
     <div id="plan" class="row flex-nowrap overflow-auto"></div>
 
@@ -20,7 +20,7 @@
   </div>
 
   <script>
-  fetch('modules.json')
+  fetch('modules_summary_mlu.json')
     .then(response => response.json())
     .then(data => {
       data.forEach(semesterBlock => {

@@ -5,7 +5,7 @@
       { "title": "Einführung in die Rechnerarchitektur", "lp": 5, "color": "green", "link": "rechnerarchitektur.html", "uni": "mlu" },
       { "title": "Objektorientierte Programmierung", "lp": 5, "color": "green", "link": "objektorientierte_programmierung.html", "uni": "mlu" },
       { "title": "Mathematik B", "lp": 15, "color": "green", "link": "mathematik_b.html", "uni": "mlu" },
-      { "title": "Mathematische Grundlagen der Informatik und Konzepte der Modellierung", "lp": 15, "color": "blue", "link": "mathematische_grundlagen_informatik_konzepte_modellierung.html", "uni": "mlu" }
+      { "title": "Mathematische Grundlagen der Informatik und Konzepte der Modellierung", "lp": 15, "color": "green", "link": "mathematische_grundlagen_informatik_konzepte_modellierung.html", "uni": "mlu" }
     ]
   },
   {
@@ -15,7 +15,7 @@
       { "title": "Einführung in Betriebssysteme", "lp": 5, "color": "green", "link": "betriebssysteme.html", "uni": "mlu" },
       { "title": "Einführung in die Technische Informatik", "lp": 5, "color": "green", "link": "technische_informatik.html", "uni": "mlu" },
       { "title": "Gestaltung und Durchführung von Fachvorträgen in der Informatik", "lp": 5, "color": "green", "link": "fachvortraege.html", "uni": "mlu" },
-      { "title": "Experimentalphysik Export I,\n[Anwendungsfach Physik]", "lp": 15, "color": "green", "link": "experimentalphysik.html", "uni": "mlu" }
+      { "title": "Experimentalphysik Export I,<br>[Anwendungsfach Physik]", "lp": 15, "color": "green", "link": "experimentalphysik.html", "uni": "mlu" }
     ]
   },
   {
@@ -23,7 +23,7 @@
     "modules": [
       { "title": "Einführung in Datenbanken", "lp": 5, "color": "green", "link": "datenbanken.html", "uni": "mlu" },
       { "title": "Datenstrukturen und effiziente Algorithmen II", "lp": 5, "color": "green", "link": "datenstrukturen_algorithmen_2.html", "uni": "mlu" },
-      { "title": "Konzepte der Programmierung", "lp": 5, "color": "blue", "link": "konzepte_programmierung.html", "uni": "mlu" },
+      { "title": "Konzepte der Programmierung", "lp": 5, "color": "green", "link": "konzepte_programmierung.html", "uni": "mlu" },
       { "title": "Einführung in Data Science", "lp": 5, "color": "red", "link": "data_science.html", "uni": "mlu" },
       { "title": "Softwaretechnik", "lp": 5, "color": "red", "link": "softwaretechnik.html", "uni": "mlu" }
     ]
@@ -34,18 +34,18 @@
       { "title": "Automaten und Berechenbarkeit", "lp": 10, "color": "green", "link": "automaten_berechenbarkeit.html", "uni": "mlu" },
       { "title": "Projektseminar", "lp": 15, "color": "yellow", "link": "projektseminar.html", "uni": "mlu" },
       { "title": "Einführung in die Bildverarbeitung", "lp": 5, "color": "red", "link": "bildverarbeitung.html", "uni": "mlu" },
-      { "title": "3D-Erfassung archäologischer Objekte in den eHumanities\n[ASQ 1]", "lp": 5, "color": "red", "link": "archaeologische_objekte.html", "uni": "mlu" },
-      { "title": "Web Mapping: Fachinformationen in Online Karten bereit stellen\n[ASQ 2]", "lp": 5, "color": "red", "link": "web_mapping.html", "uni": "mlu" }
+      { "title": "3D-Erfassung archäologischer Objekte in den eHumanities<br>[ASQ 1]", "lp": 5, "color": "red", "link": "archaeologische_objekte.html", "uni": "mlu" },
+      { "title": "Web Mapping: Fachinformationen in Online Karten bereit stellen<br>[ASQ 2]", "lp": 5, "color": "red", "link": "web_mapping.html", "uni": "mlu" }
     ]
   },
   {
     "semester": 5,
     "modules": [
       { "title": "Rechnernetze und verteilte Systeme", "lp": 5, "color": "green", "link": "rechnernetze_verteilte_systeme.html", "uni": "mlu" },
-      { "title": "Gast-Modul A:\nEinführung in die \nKünstliche Intelligenz\n[Spezifikation]", "lp": 5, "color": "green", "link": "kuenstliche_intelligenz.html", "uni": "mlu" },
-      { "title": "Gast-Modul B:\nMaschinelles Lernen\n[Spezifikation]", "lp": 5, "color": "green", "link": "maschinelles_lernen.html", "uni": "mlu" },
-      { "title": "Gast-Modul C:\nAdvanced Python\n[Spezifikation]", "lp": 5, "color": "green", "link": "advanced_python.html", "uni": "mlu" },
-      { "title": "Gast-Modul D:\nRobotik\n[Spezifikation]", "lp": 5, "color": "green", "link": "robotik.html", "uni": "mlu" }
+      { "title": "Gast-Modul A:<br>Einführung in die <br>Künstliche Intelligenz<br>[Spezifikation]", "lp": 5, "color": "green", "link": "kuenstliche_intelligenz.html", "uni": "mlu" },
+      { "title": "Gast-Modul B:<br>Maschinelles Lernen<br>[Spezifikation]", "lp": 5, "color": "green", "link": "maschinelles_lernen.html", "uni": "mlu" },
+      { "title": "Gast-Modul C:<br>Advanced Python<br>[Spezifikation]", "lp": 5, "color": "green", "link": "advanced_python.html", "uni": "mlu" },
+      { "title": "Gast-Modul D:<br>Robotik<br>[Spezifikation]", "lp": 5, "color": "green", "link": "robotik.html", "uni": "mlu" }
     ]
   }
 ]
