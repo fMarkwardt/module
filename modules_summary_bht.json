@@ -19,9 +19,9 @@
   { "title": "Verteilte Systeme [BHT]", "lp": 5 },
   { "title": "Mikroprozessortechnik [BHT]", "lp": 5 },
   { "title": "Maschinelles Lernen [BHT]", "lp": 5 },
-  { "title": "Grundlagen wissenschaftlichen Arbeitens [BHT]", "lp": 2.5 },
+  { "title": "Grundlagen wissenschaftlichen Arbeitens [BHT]", "lp": 5 },
   { "title": "Robotik [BHT]", "lp": 5 },
-  { "title": "Grundfragen wissenschaftlichen Arbeitens [BHT]", "lp": 5 },
+  { "title": "Grundfragen wissenschaftlichen Arbeitens [BHT]", "lp": 2.5 },
   { "title": "Mobile Anwendungen [BHT]", "lp": 5 },
   { "title": "Advanced Python [BHT]", "lp": 5 }
 ]

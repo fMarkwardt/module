@@ -1,0 +1,67 @@
+.mapping-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.mapping-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.module-block {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 275px;
+  max-width: 275px;
+  min-height: 100px;
+  text-align: center;
+}
+
+.mlu-block {
+  flex: 0 0 275px;
+  min-height: 125px;
+}
+.bht-tub-block {
+  flex: 0 0 250px;
+  min-height: 125px;
+}
+
+/* Farbhintergründe per Klassennamen */
+.color-white { background-color: white; color: black; }
+.color-green { background-color: #d4edda; color: #155724; }
+.color-yellow { background-color: #fff3cd; color: #856404; }
+.color-red { background-color: #f8d7da; color: #721c24; }
+
+.module-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.lp-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #333;
+}
+
+.arrow {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 100px;
+}

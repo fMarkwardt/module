@@ -1,0 +1,100 @@
+[
+  {
+    "mlu": {"titel": "Automaten und Berechenbarkeit","lp": 10,"color": "white"},
+    "quelle": [
+      {"titel": "Grundlagen der Informatik","lp": 5,"color": "red"},
+      {"titel": "Mobile Anwendungen","lp": 5,"color": "red"}
+    ]
+  },
+  {
+    "mlu": {"titel": "Mathematische Grundlagen der Informatik und Konzepte der Modellierung","lp": 15,"color": "white"},
+    "quelle": [
+      {"titel": "Grundlagen der Informatik","lp": 5,"color": "red"},
+      {"titel": "Mathematik 1","lp": 5,"color": "yellow"},
+      {"titel": "Mobile Anwendungen","lp": 5,"color": "red"}
+    ]
+  },
+  {
+    "mlu": {"titel": "Konzepte der Programmierung","lp": 5,"color": "white"},
+    "quelle": [
+      {"titel": "Grundlagen der Informatik","lp": 5,"color": "red"},
+      {"titel": "Objektorientierte Programmierung","lp": 5,"color": "yellow"},
+      {"titel": "Mobile Anwendungen","lp": 5,"color": "red"}
+    ]
+  },
+  {
+    "mlu": {"titel": "Einführung in die Technische Informatik", "lp": 5, "color": "white"},
+    "quelle": [
+      {"titel": "Digitale Systeme 1", "lp": 5,"color": "green"},
+      {"titel": "Diskrete Schaltungstechnik","lp": 5,"color": "green"},
+      {"titel": "Elektrische Systeme 1","lp": 5,"color": "yellow"}
+    ]
+  },
+  {
+    "mlu": {"titel": "Objektorientierte Programmierung","lp": 5,"color": "white"},
+    "quelle": [{"titel": "Objektorientierte Programmierung","lp": 5,"color": "yellow"}]
+  },
+  {
+    "mlu": {"titel": "Mathematik B","lp": 15,"color": "white"},
+    "quelle": [
+      {"titel": "Mathematik 1","lp": 5,"color": "yellow"},
+      {"titel": "Mathematik 2","lp": 5,"color": "green"},
+      {"titel": "Mathematik 3","lp": 5,"color": "green"}
+    ]
+  },
+  {
+    "mlu": {"titel": "Experimentalphysik Export I","lp": 5,"color": "white"},
+    "quelle": [
+      {"titel": "Physik","lp": 15,"color": "green"},
+      {"titel": "Elektrische Systeme 1","lp": 5,"color": "yellow"},
+      {"titel": "Elektrische Systeme 2","lp": 5,"color": "green"}
+    ]
+  },
+  {
+    "mlu": {"titel": "Einführung in die Rechnerarchitektur","lp": 5,"color": "green"},
+    "quelle": [{"titel": "Rechnerarchitektur und -organisation","lp": 5,"color": "green"}]
+  },
+  {
+    "mlu": {"titel": "Einführung in Betriebssysteme","lp": 5,"color": "green"},
+    "quelle": [{"titel": "Systemprogrammierung","lp": 5,"color": "green"}]
+  },
+  {
+    "mlu": {"titel": "Gestaltung u. Durchführung von Fachvorträgen in der Informatik","lp": 5,"color": "green"},
+    "quelle": [
+      {"titel": "Grundfragen wissenschaftlichen Arbeitens","lp": 2.5,"color": "green"},
+      {"titel": "Grundlagen wissenschaftlichen Arbeitens","lp": 5,"color": "green"}
+    ]
+  },
+  {
+    "mlu": {"titel": "Einführung in Datenbanken","lp": 5,"color": "green"},
+    "quelle": [{"titel": "Datenbanksysteme","lp": 5,"color": "green"}]
+  },
+  {
+    "mlu": {"titel": "Rechnernetze und verteilte Systeme","lp": 5,"color": "green"},
+    "quelle": [{"titel": "Verteilte Systeme","lp": 5,"color": "green"}]
+  },
+  {
+    "mlu": {"titel": "Datenstrukturen und effiziente Algorithmen I","lp": 5,"color": "green"},
+    "quelle": [{"titel": "Algorithmen und Datenstrukturen (BHT)","lp": 5,"color": "green"}]
+  },
+  {
+    "mlu": {"titel": "Datenstrukturen und effiziente Algorithmen II","lp": 5,"color": "green"},
+    "quelle": [{"titel": "Algorithmen und Datenstrukturen (TU)","lp": 5,"color": "green"}]
+  },
+  {
+    "mlu": {"titel": "Gast-Modul Bachelor Informatik A","lp": 5,"color": "green"},
+    "quelle": [{"titel": "Einführung in die Künstliche Intelligenz","lp": 5,"color": "green"}]
+  },
+  {
+    "mlu": {"titel": "Gast-Modul Bachelor Informatik B","lp": 5,"color": "green"},
+    "quelle": [{"titel": "Maschinelles Lernen","lp": 5,"color": "green"}]
+  },
+  {
+    "mlu": {"titel": "Gast-Modul Bachelor Informatik C","lp": 5,"color": "green"},
+    "quelle": [{"titel": "Advanced Python","lp": 5,"color": "green"}]
+  },
+  {
+    "mlu": {"titel": "Gast-Modul Bachelor Informatik D","lp": 5,"color": "green"},
+    "quelle": [{"titel": "Robotik","lp": 5,"color": "green"}]
+  }
+]
