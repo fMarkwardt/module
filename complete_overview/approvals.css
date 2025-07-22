@@ -23,13 +23,12 @@
   justify-content: center;
   flex: 0 0 275px;
   max-width: 275px;
-  min-height: 100px;
+  min-height: 125px;
   text-align: center;
 }
 
 .mlu-block {
   flex: 0 0 275px;
-  min-height: 125px;
   transition: transform 0.1s ease-in-out;
 }
 a.module-link:hover .mlu-block {
@@ -38,7 +37,6 @@ a.module-link:hover .mlu-block {
 }
 .bht-tub-block {
   flex: 0 0 250px;
-  min-height: 125px;
 }
 
 /* Farbhintergründe per Klassennamen */
@@ -66,9 +64,9 @@ a.module-link:hover .mlu-block {
 }
 
 .arrow {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
-  line-height: 100px;
+  line-height: 125px;
 }
 a {
   text-decoration: none;
